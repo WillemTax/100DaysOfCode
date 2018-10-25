@@ -10,9 +10,16 @@ No idea how (and when since I need more knowledge first) this repo will expand!
 
 
 
+DAY 2/100
+25 October 2018
+-
+Spend an hour or 1,5 to expend my project. More fiddling with placing text in my 'card'. Struggled some time till i found out i 'selected' a divclass with a # instead of a . (or the other way around, anyways..)
 
+What I learned today:
+-
+Div's, padding, margin, google fonts, ... how to wreck a github repo...
 
-
+----------------
 DAY 1/100
 24 October 2018
 -
