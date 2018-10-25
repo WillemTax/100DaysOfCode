@@ -2,65 +2,107 @@
 
 .card {
     background-color: #ffffff;
-    width: 800px;
-    height:400px;
+    width: 50%;
+    height:300px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    margin-top: 20%; /*too hacky*/
+}
+#cardHeader {
+    margin-top: 0px; 
+    background-color: #33B6A8;
+    border-radius: 20px 20px 0px 0px;
+}
 
-
-   
-   
-    /* already hack, fix later because we need some progresss now*/
-    position: absolute;
-    margin-left: 10%;
-    margin-top: 10%;
-    }
-
-.full-page {
-    background-image: url("/100DaysOfCode-OnePager/media/code_bg.jpg");
-    height: 100%;
-    background-color:lightgrey;
-    align-content: center;
+body {
+    background-image: url("https://www.thoughtco.com/thmb/DF3Q0T5_0O5CmGBTCWCBTcyGgmw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/JavaScript-58acbb8a3df78c345bad32c2.jpg");
+    background-size: cover;
+    background-color:rgba(165, 165, 165, 0.708);
 }
 
 h1 {
     color:white;
     font-family: 'Open Sans', sans-serif;
-}
-h3 {    
-    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
 }
 
-#cardHeader {
-   margin-top: 0px; 
-    background-color: #33B6A8;
-    
-}
+
 
 #cardContent {
     background-color: #ffffff;
     width: 100%;
 }
-
+/*cardContent 1 (left-section)*/
 #cardContent1 {
-    background-color: red;
+    /*background-color: purple;*/
     width: 33.3%;
-    height: 50%;
+    height: 70%;
     float: left;
 }
+#DateText {    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #707070;
+    font-size: 18px;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+#Date {    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #33B6A8;
+    font-size: 32px;
+    margin-top: 0%;
+    margin-left: 30px;
+}
+/*cardContent 2 (middle-section)*/
+
 #cardContent2 {
-    background-color: purple;
+    /*background-color: purple;*/
     width: 33.3%;
-    height: 50%;
+    height: 70%;
     float: left;
 }
+#cardContent2 img{
+    border-radius: 50%; 
+    height: 90%;
+    margin: auto;
+    display: block;
+   
+
+}
+/*cardContent 3 (right-section)*/
+
 #cardContent3 {
-    background-color: yellow;
+     /*background-color: purple;*/
     width: 33.3%;
-    height: 50%;
+    height: 70%;
     float: left;
+    text-align: right;
+}
+
+#dayIndicator {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #707070;
+    font-size: 40px;
+    margin-top: 0%;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#daysElapsed {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #33B6A8;
+    font-size: 80px;
+    margin-top: 0%;
+    margin-right: 30px;
 }
