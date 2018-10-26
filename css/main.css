@@ -1,5 +1,7 @@
-
-
+:root {
+    --main_color:#33B6A8;
+}
+    
 .card {
     background-color: #ffffff;
     width: 50%;
@@ -8,23 +10,24 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
     margin-top: 20%; /*too hacky*/
+    min-width: 800px;
 }
 #cardHeader {
     margin-top: 0px; 
-    background-color: #33B6A8;
+    background-color:var(--main_color);
     border-radius: 20px 20px 0px 0px;
 }
 
 body {
-    background-image: url("https://www.thoughtco.com/thmb/DF3Q0T5_0O5CmGBTCWCBTcyGgmw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/JavaScript-58acbb8a3df78c345bad32c2.jpg");
+    background-image: url("https://source.unsplash.com/random"); /* add the official API someday*/
     background-size: cover;
     background-color:rgba(165, 165, 165, 0.708);
 }
 
 h1 {
     color:white;
-    font-family: 'Open Sans', sans-serif;
-    padding-left: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding-left: 30px;
 }
 
 p {
@@ -106,3 +109,4 @@ p {
     margin-top: 0%;
     margin-right: 30px;
 }
+
