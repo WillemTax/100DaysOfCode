@@ -9,7 +9,16 @@ No idea how (and when since I need more knowledge first) this repo will expand!
 
 
 
+DAY 3/100
+26 October 2018
+-
+Finished the CSS chapter of FreeCodeCamp... In my project I defined a main-color variable, thought that might come in handy if I decide to change colors! Didn't add the fallback for all those IE-people out there ;)
 
+What I learned today:
+-
+Div's, padding, margin, google fonts, ... how to wreck a github repo...
+
+----------------
 DAY 2/100
 25 October 2018
 -
