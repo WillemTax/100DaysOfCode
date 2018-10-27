@@ -8,7 +8,17 @@ First idea
 No idea how (and when since I need more knowledge first) this repo will expand! 
 
 
+DAY 4/100
+27 October 2018
+-
+Tried to implement Typed.js. Wayyyy to early but it looked to damn good to just skip it for now. Didnt work but had fun trying. 
+Also spend more time on FreeCodeCamp and learned ...... see below ;)
 
+What I learned today:
+-
+That I kinda messed up this project by starting too early. No problem, the second time your try stuff is always better. However, will be striving for *first time right!*
+
+----------------
 DAY 3/100
 26 October 2018
 -

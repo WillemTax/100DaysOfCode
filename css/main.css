@@ -1,42 +1,39 @@
 :root {
     --main_color:#33B6A8;
 }
-    
 .card {
     background-color: #ffffff;
     width: 50%;
     height:300px;
     border-radius: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin: auto;
     margin-top: 20%; /*too hacky*/
     min-width: 800px;
 }
 #cardHeader {
-    margin-top: 0px; 
     background-color:var(--main_color);
     border-radius: 20px 20px 0px 0px;
 }
-
 body {
     background-image: url("https://source.unsplash.com/random"); /* add the official API someday*/
     background-size: cover;
-    background-color:rgba(165, 165, 165, 0.708);
+    
 }
-
 h1 {
     color:white;
     font-family: 'PT Sans Narrow', sans-serif;
-    padding-left: 30px;
+    padding: 15px 15px 15px 15px;
+    /* margin: 0px; | default margin is quite good already.. might keep them in this div?   */
 }
-
 p {
     font-family: 'Open Sans', sans-serif;
-    padding-left: 10px;
+    padding-left: 15px 15px 15px 15px;
 }
 
-
-
+.divider {
+    height:20px;
+}
 #cardContent {
     background-color: #ffffff;
     width: 100%;
@@ -44,9 +41,12 @@ p {
 /*cardContent 1 (left-section)*/
 #cardContent1 {
     /*background-color: purple;*/
+    position: relative;
+    bottom:0px;
     width: 33.3%;
-    height: 70%;
+    height: 90%;
     float: left;
+    line-height: 3px;
 }
 #DateText {    
     font-family: 'Open Sans', sans-serif;
@@ -56,21 +56,18 @@ p {
     font-style: italic;
     margin-left: 30px;
 }
-
 #Date {    
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #33B6A8;
     font-size: 32px;
-    margin-top: 0%;
     margin-left: 30px;
 }
 /*cardContent 2 (middle-section)*/
-
 #cardContent2 {
     /*background-color: purple;*/
     width: 33.3%;
-    height: 70%;
+    height: 90%;
     float: left;
 }
 #cardContent2 img{
@@ -78,19 +75,19 @@ p {
     height: 90%;
     margin: auto;
     display: block;
-   
-
+    position: relative;
+    bottom:0px;
 }
 /*cardContent 3 (right-section)*/
-
 #cardContent3 {
      /*background-color: purple;*/
     width: 33.3%;
-    height: 70%;
+    height: 90%;
     float: left;
     text-align: right;
+    position: relative;
+    bottom:0px;
 }
-
 #dayIndicator {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -100,7 +97,6 @@ p {
     margin-right: 30px;
     margin-top: 20px;
 }
-
 #daysElapsed {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -108,5 +104,5 @@ p {
     font-size: 80px;
     margin-top: 0%;
     margin-right: 30px;
+    padding: 0px;
 }
-
