@@ -11,6 +11,10 @@
     margin-top: 20%; /*too hacky*/
     min-width: 800px;
 }
+
+#cardContent2:hover {
+    transform: scale(1.1);
+}
 #cardHeader {
     background-color:var(--main_color);
     border-radius: 20px 20px 0px 0px;
@@ -67,7 +71,7 @@ p {
 #cardContent2 {
     /*background-color: purple;*/
     width: 33.3%;
-    height: 90%;
+    height: 70%;
     float: left;
 }
 #cardContent2 img{
@@ -77,6 +81,7 @@ p {
     display: block;
     position: relative;
     bottom:0px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 /*cardContent 3 (right-section)*/
 #cardContent3 {

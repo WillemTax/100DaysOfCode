@@ -7,6 +7,18 @@ First idea
 
 No idea how (and when since I need more knowledge first) this repo will expand! 
 
+DAY 5/100
+28 October 2018
+-
+Finished the Visual design chapter of FreeCodeCamp. Didn't make changes to this project (since I know the 'chapter to come' will be flexbox! / a.k.a. time for a refactor/or even restart!.
+
+What I learned today:
+-
+> that you can do a lot with css (animations and stuff)
+> heartshapes, moons, animations, keyframes infinite loops. etc etc!
+
+----------------
+
 
 DAY 4/100
 27 October 2018
@@ -19,6 +31,8 @@ What I learned today:
 That I kinda messed up this project by starting too early. No problem, the second time your try stuff is always better. However, will be striving for *first time right!*
 
 ----------------
+
+
 DAY 3/100
 26 October 2018
 -
@@ -29,6 +43,8 @@ What I learned today:
 Div's, padding, margin, google fonts, ... how to wreck a github repo...
 
 ----------------
+
+
 DAY 2/100
 25 October 2018
 -
@@ -39,6 +55,8 @@ What I learned today:
 Div's, padding, margin, google fonts, ... how to wreck a github repo...
 
 ----------------
+
+
 DAY 1/100
 24 October 2018
 -
