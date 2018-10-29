@@ -7,6 +7,20 @@ First idea
 
 No idea how (and when since I need more knowledge first) this repo will expand! 
 
+DAY 6/100
+29 October 2018
+-
+Spend my time improving the looks of clients project (non-billable/own time(so eligable for this 100 days ;))
+Also spend time watching a few youtube video's on Flexbox. Thought I would be good to first see some video's before starting this section on FreeCodeCamp.
+
+What I learned today:
+-
+> the basics of flexbox
+> that you can drastically improve a projects looks within not that much time. !
+
+----------------
+
+
 DAY 5/100
 28 October 2018
 -
