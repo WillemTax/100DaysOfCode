@@ -7,6 +7,38 @@ First idea
 
 No idea how (and when since I need more knowledge first) this repo will expand! 
 
+DAY 9/100
+1 november 2018
+-
+Yes! Started working on my 'FreeCodeCamp portfolio'. Will not tell you what the idea is... yet.
+
+What I learned today:
+-
+That implementing CSS grids cannot be done withing looking up the theory.. ;) Muscle memory will come eventually. :)
+
+
+
+DAY 8/100
+31 October 2018
+-
+FreeCodeCamp chapter: CSS Grids... + watching some video's on CSS grids. ! nice stuff
+
+What I learned today:
+-
+> the basics of CSS grids
+> youtube is full of information! ;)
+
+DAY 7/100
+30 October 2018
+-
+Didn't spent that much time yesterday.. Watched a video to discover the differences between CSS grids and Flexbox..
+
+What I learned today:
+-
+The differences between Flexbox and css grids!
+
+
+
 DAY 6/100
 29 October 2018
 -
