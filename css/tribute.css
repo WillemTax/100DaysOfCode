@@ -1,48 +1,88 @@
 * {
     padding: 5px;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
 }
-
 body {
     background-image: linear-gradient(to left, #505050, rgb(103, 103, 103));
+    background-image: url(https://i.ytimg.com/vi/G_bNe8uK5RE/maxresdefault.jpg);
+    background-size: cover;
+    height: 100vh;
 }
-
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: rgb(48, 48, 48);
+    font-size: 32px;
+    padding: 15px 15px 25px 15px;
+    text-align: center;
+}
+#tribute-info {
+    padding: 40px 15px 15px 15px;
+}
+#joker {
+    font-family: "Open Sans";
+    padding:30px 0px 50px 0px;
+    font-size: 32px;
+    font-weight: 900;
+}
 main {
-    /* the joker-card */
-    background-color: green;
-    width: 680px;
+    border-radius: 12px;   
+    border-style: solid;
+    border-color: white;
+    border-width: 6px;
+    background-image: linear-gradient(to left bottom, #7292c0, #7d9ec7, #88a9ce, #94b5d5, #a1c0dc);
+    width: 700px;
     margin: auto;
-    margin-top: 10%;
-      
-    box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    border-radius: 8px;
 }
-
 .playingCard {
-    min-width: 600px;
-    min-height: 400px;
-    background-color: red;
+    margin: auto;
+    width: 320px;
+    height: 500px;
+    background-color: white;
     display: grid;
-    grid-template-rows: 500px;
-    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 12fr 1fr;
     grid-template-areas:
-    'bannerLeft yeti bannerRight';
+    'bannerLeft bannerTop bannerRight'
+    'bannerLeft yeti bannerRight'
+    'bannerLeft bannerBottom bannerRight';
+    border-radius: 20px;
+    -webkit-box-shadow: 9px 10px 35px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 35px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 35px 0px rgba(0,0,0,0.75);
+    align-items: center;
+    transition-duration: 1000ms;
 }
-
+.playingCard:hover {
+    transform: scale(1.1);
+    transform: rotate(394deg);
+    transition-duration: 1000ms;
+    -webkit-box-shadow: 9px 10px 35px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 35px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 35px 0px rgba(0,0,0,0.75);
+}
 #bannerLeft {
-    background-color: aqua;
     grid-area: bannerLeft;
+    align-self: flex-start;
+    transform: rotate(270deg);
 }
 #yeti {
-    background-color: pink;
     grid-area: yeti;
 }
 #bannerRight {
-    background-color:orange;
     grid-area: bannerRight;
+    align-self: flex-end;
+    transform: rotate(90deg);
 }
-
-h1 {
-    font-family: "Open Sans";
-    color: white;
-
+#image {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    max-width: 99%;
+}
+#img-caption {
+    text-align: center;
+    color:rgb(55, 55, 55);
 }
