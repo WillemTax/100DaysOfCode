@@ -7,6 +7,25 @@ First idea
 
 No idea how (and when since I need more knowledge first) this repo will expand! 
 
+DAY 11/100
+3 november 2018
+-
+Ready to submit my first FreeCodeCamp Challenge. A tribute page! 
+
+What I learned today:
+-
+A lot ;) .. also some stuff about some 'animal' living in the Himalaya?.. Strange.
+
+DAY 10/100
+2 november 2018
+-
+CSS effects! Shadows transform etc etc! 
+
+What I learned today:
+-
+The above!
+
+
 DAY 9/100
 1 november 2018
 -
