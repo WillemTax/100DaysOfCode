@@ -4,7 +4,7 @@
     
     font-family: 'Unica One', cursive;
 
-    font-size: 22px;
+    font-size: 16px;
 }
 
 
@@ -23,7 +23,7 @@ main {
     'mainLeft mainRight';
 }
 
-@media (max-width: 800px) {
+@media (max-width: 760px) {
     main {
         min-height: 50vh;
         padding: 10% 15% 0% 10%;
@@ -40,6 +40,7 @@ main {
 #mainLeft {
     grid-area: mainLeft;
     background-image: url("https://s1.funon.cc/img/orig/201610/23/580c611f5085d.jpg");
+    /* filter:opacity(90%); alleen de image, niet de content ervoor (nog bedenken hoe) */
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -47,13 +48,11 @@ main {
 }
 #mainLeft h1 {
     font-size: 8vw;
-    
     font-family: 'Cabin Sketch', cursive;
-
     color:#FFF;
 }
 #mainLeft p {
-    font-size: 1.4vw;
+    font-size: 22px;
     padding: 24px;
     color: #FFF;
 }
@@ -62,17 +61,32 @@ main {
     background-color: white;
 }
 
-form {
-    padding: 20px;
-}
 
-input {
-    margin-left: 10px;
-}
+
 #infoForm {
     padding: 20px;
 }
 
 input:focus{
-transform: scale(1.05);
+transform: scale(1.01);
+}
+
+#submit:hover {
+    background-color: #e15c55;
+}
+/* Styling the form */
+input {
+    width: 90%;
+    margin:10px;
+    display: block;
+}
+
+input[type=radio] {
+    width: 90%;
+    display: block;
+}
+
+input[type=checkbox] {
+    width: 90%;
+    display: block;
 }

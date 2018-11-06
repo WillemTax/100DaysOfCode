@@ -1,6 +1,7 @@
 :root {
     --main_color:#33B6A8;
 }
+/* Will be rebuilding this in css grid. Old code already ;) */
 .card {
     background-color: #ffffff;
     width: 50%;
@@ -48,7 +49,7 @@ p {
     position: relative;
     bottom:0px;
     width: 33.3%;
-    height: 90%;
+    height: 70%;
     float: left;
     line-height: 3px;
 }
@@ -75,8 +76,8 @@ p {
     float: left;
 }
 #cardContent2 img{
+    height: 180px;
     border-radius: 50%; 
-    height: 90%;
     margin: auto;
     display: block;
     position: relative;
