@@ -5,7 +5,51 @@ First idea
 -
 - Building a simple(?) webpage that displays the date 100 days from now, quite usefull for people like me who will follow the 100-days-of-code-challenge.
 
-No idea how (and when since I need more knowledge first) this repo will expand! 
+
+
+DAY 14/100
+7 november 2018
+-
+Made a simple (very very very simple) index.page to group the others pages to..
+This page will eventually become some portfolio page. For now its a convenient way to browse to my projects!
+
+What I learned today:
+-
+How to merge so my Clevercloud pipeline will build everything I want to Clevercloud!
+
+
+DAY 13/100
+6 november 2018
+-
+Nothing....... Couldn't find the time since i worked late..
+
+What I learned today:
+-
+Working late is not good for the 100daysofcode-challenge. Bummerr.. No +1 in days... ;)
+
+
+DAY 13/100
+5 november 2018
+-
+Styled the form to my likings! Also tried implementing the radiobuttons and checkboxes but no luck there (yet!)...
+
+What I learned today:
+-
+Never give up:), Na didn't make that much progress today..
+
+
+
+DAY 12/100
+4 november 2018
+-
+Immediatly started working om my second Project! The survey form! . Setup the base layout. A combination of CSS Grid and Flexbox! 
+Quite cool to combine these two powers!
+
+What I learned today:
+-
+How to combine CSS grid and flexbox AND how fast I create a base-layout 'nowadays'..
+
+
 
 DAY 11/100
 3 november 2018

@@ -1,29 +1,35 @@
 * {
     padding: 5px;
     margin: 0px;
-    
-    font-family: 'Unica One', cursive;
-
+    font-family: 'open sans';
     font-size: 16px;
 }
 
+#description {
+    font-family: 'Unica One', cursive;
+}
 
 body {
     background-color: rgb(40,38,38);
+    background-image: url(https://blog.hdwallsource.com/wp-content/uploads/2014/11/gradient-background-26046-26731-hd-wallpapers.jpg.png);
+    background-size: cover;
+    height: 100vh;
 }
 
 main {
-    min-height: 50vh;
-    padding: 10% 15% 0% 10%;
+    min-height: 40vh;
+    padding: 10% 25% 0% 25%;
     margin: auto;
     display: grid;
     grid-template-rows:auto;
-    grid-template-columns: 3fr 3fr;
+    grid-template-columns: 4fr 6fr;
     grid-template-areas: 
     'mainLeft mainRight';
+    
 }
 
-@media (max-width: 760px) {
+
+@media (max-width: 920px) {
     main {
         min-height: 50vh;
         padding: 10% 15% 0% 10%;
@@ -40,7 +46,6 @@ main {
 #mainLeft {
     grid-area: mainLeft;
     background-image: url("https://s1.funon.cc/img/orig/201610/23/580c611f5085d.jpg");
-    /* filter:opacity(90%); alleen de image, niet de content ervoor (nog bedenken hoe) */
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -67,12 +72,23 @@ main {
     padding: 20px;
 }
 
-input:focus{
-transform: scale(1.01);
+input:focus {
+    transform: scale(1.01);
+}
+textarea:focus {
+    transform: scale(1.01);
+}
+
+#submit {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
 }
 
 #submit:hover {
     background-color: #e15c55;
+    transform: scale(1.05);
+    color: white;
 }
 /* Styling the form */
 input {
@@ -80,13 +96,21 @@ input {
     margin:10px;
     display: block;
 }
-
-input[type=radio] {
-    width: 90%;
+input[type=number] {
+    width: 40%;
     display: block;
 }
 
-input[type=checkbox] {
-    width: 90%;
+select /* dropdown*/ { 
+    width: 50%;
     display: block;
 }
+
+#textArea {
+    width: 90%;
+    
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+     
