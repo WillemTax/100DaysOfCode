@@ -5,6 +5,7 @@
     font-size: 14px;
 }
 body {
+    padding-top:5%;
     background-image: linear-gradient(to left, #505050, rgb(103, 103, 103));
     background-image: url(https://i.ytimg.com/vi/G_bNe8uK5RE/maxresdefault.jpg);
     background-size: cover;

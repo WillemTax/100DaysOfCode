@@ -1,0 +1,92 @@
+* {
+    padding: 5px;
+    margin: 0px;
+    
+    font-family: 'Unica One', cursive;
+
+    font-size: 16px;
+}
+
+
+body {
+    background-color: rgb(40,38,38);
+}
+
+main {
+    min-height: 50vh;
+    padding: 10% 15% 0% 10%;
+    margin: auto;
+    display: grid;
+    grid-template-rows:auto;
+    grid-template-columns: 3fr 3fr;
+    grid-template-areas: 
+    'mainLeft mainRight';
+}
+
+@media (max-width: 760px) {
+    main {
+        min-height: 50vh;
+        padding: 10% 15% 0% 10%;
+        margin: auto;
+        display: grid;
+        grid-template-rows:1fr 3fr;
+        grid-template-columns: auto;
+        grid-template-areas: 
+        'mainLeft'
+        'mainRight';
+    }
+}
+
+#mainLeft {
+    grid-area: mainLeft;
+    background-image: url("https://s1.funon.cc/img/orig/201610/23/580c611f5085d.jpg");
+    /* filter:opacity(90%); alleen de image, niet de content ervoor (nog bedenken hoe) */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+#mainLeft h1 {
+    font-size: 8vw;
+    font-family: 'Cabin Sketch', cursive;
+    color:#FFF;
+}
+#mainLeft p {
+    font-size: 22px;
+    padding: 24px;
+    color: #FFF;
+}
+#mainRight {
+    grid-area: mainRight;
+    background-color: white;
+}
+
+
+
+#infoForm {
+    padding: 20px;
+}
+
+input:focus{
+transform: scale(1.01);
+}
+
+#submit:hover {
+    background-color: #e15c55;
+}
+/* Styling the form */
+input {
+    width: 90%;
+    margin:10px;
+    display: block;
+}
+
+input[type=radio] {
+    width: 90%;
+    display: block;
+}
+
+input[type=checkbox] {
+    width: 90%;
+    display: block;
+}
