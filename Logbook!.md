@@ -7,6 +7,25 @@ First idea
 
 
 
+DAY 16/100
+12 november 2018
+-
+More javascript programming! Also watched a long video about GraphQL, might be a little bit too early but cool stuff anyways!
+
+What I learned today:
+-
+GraphQL basics and more javascipt basics (eg. modulos)
+
+DAY 15/100
+11 november 2018
+-
+Started off with the javascript section of FreeCodeCamp! Declaring some variables and performed some match function on them! Can't wait to take it futher.
+I didn't found time to code on 8,9 and 10 november due to some personal reasons and the fact that I had to reinstall my mac... Anyways good to be back;)
+
+What I learned today:
+-
+Some javascript math functions and some basis!
+
 DAY 14/100
 7 november 2018
 -
