@@ -5,7 +5,16 @@ First idea
 -
 - Building a simple(?) webpage that displays the date 100 days from now, quite usefull for people like me who will follow the 100-days-of-code-challenge.
 
+DAY 17/100
+13 november 2018
+-
+Almost finished the survey form project! Only needs some trimming on excesive css?;).. Or maybe the css is fine, dunno (yet);)
+Had some issues with CSS grid, forgot 1!!! letter in defining the grid area..
+Submitting to Codepen tomorrow!
 
+What I learned today:
+-
+Do not forget about letters when defining CSS grid areas. haha. And some more about form-types, ssh keys in Bitbucket etc.
 
 DAY 16/100
 12 november 2018
