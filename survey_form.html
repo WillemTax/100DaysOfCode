@@ -39,36 +39,80 @@
             <p id="description">Please fillout the form and see that nothing happens because this is just a
                 demo-project!</p>
         </div>
-
         <div id="mainRight">
             <p id="infoForm">Hi guys, please take into consideration that this form is fake. If, for some reason, you
                 would decide to fill it out ;)!</p>
             <form id="survey-form">
-                <label id="name-label">Name
-                    <input type="text" id="name" placeholder="Name" required>
-                </label>
-                <label id="email-label">Email
-                    <input type="email" id="email" placeholder="Emailadres" required>
-                </label>
-                <label id="number-label">Year of Birth
-                    <input type="number" id="number" placeholder="Don't lie.." min="1900" max="2020">
-                </label>
-                <label id="dropdown-label">Color of your Tesla?
-                    <select name="dropdown">
-                        <option value="volvo">Red</option>
-                        <option value="saab">Green</option>
-                        <option value="fiat">Blue</option>
-                        <option value="audi">Yellow</option>
-                    </select>
-                </label>
-            
+                <div id="nameEmail">
+                    <label id="name-label">Name
+                        <input type="text" id="name" placeholder="Name" required>
+                    </label>
+                    <label id="name-label">Emailadress
+                        <input type="text" id="email" placeholder="Email@somedomain.com" required>
+                    </label>
 
-                <label id="textArea-label">Please provide some text  </label>
-                <br>
-                        <textarea rows="4" cols="50" placeholder="If you'd like, please add some lyrics." id="textArea"></textarea>
-              
-                <input id="submit" type="button" placeholder="submit" value="submit">
+                </div>
+                <div id="formCluster">
+                    <div id="gender">
+                        <label id="dropdown-label">Gender
+                            <select name="gender">
+                                <option value="volvo">None selected</option>
+                                <option value="saab">Male</option>
+                                <option value="fiat">Female</option>
+                                <option value="audi">Other</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div id="yearOfBirth">
+                        <label id="number-label">Year of Birth
+                            <input type="number" id="number" placeholder="YYYY" min="1900" max="2020">
+                        </label>
+                    </div>
+
+                    <div id="cuisines">
+                        <label id="dropdown-label">Favorite cuisines
+                            <div class="optionsContainer">
+                                <input type="checkbox" name="cuisines" id="italian" value="italian">
+                                <div id="option">Italian</div>
+                            </div>
+                            <div class="optionsContainer">
+                                <input type="checkbox" name="cuisines" id="german" value="german">
+                                <div id="option">German</div>
+                            </div>
+                            <div class="optionsContainer">
+                                <input type="checkbox" name="cuisines" id="french" value="french">
+                                <div id="option">French</div>
+                            </div>
+                            <div class="optionsContainer">
+                                <input type="checkbox" name="cuisines" id="japanese" value="japanese">
+                                <div id="option">Japanese</div>
+                            </div>
+                        </label>
+                    </div>
+                    <div id="mainHand">
+                        <label id="dropdown-label">Preferred hand
+                            <div class="optionsContainer">
+                                <input type="radio" name="preferredHand" id="leftHand" value="leftHand">
+                                <div id="option">Left Hand</div>
+                            </div>
+                            <div class="optionsContainer">
+                                <input type="radio" name="preferredHand" id="rightHand" value="rightHand">
+                                <div id="option">Right Hand</div>
+                            </div>
+                            <div class="optionsContainer">
+                                <input type="radio" name="preferredHand" id="ambidexterity" value="ambidexterity">
+                                <div id="option">Ambidexterity</div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div id="bottomDiv">
+                    <label id="textArea-label">Please provide some text </label>
+                    <textarea rows="4" cols="50" placeholder="If you'd like, please add some lyrics." id="textArea"></textarea>
+                </div>
+                <button id="submit" name="submitButton">Submit form</button>
             </form>
+        </div>
         </div>
     </main>
 </body>
