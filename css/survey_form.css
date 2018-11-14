@@ -4,6 +4,10 @@
     font-family: 'open sans';
     font-size: 14px;
 }
+
+#title {
+    padding-left: 20px;
+}
 #description {
     font-family: 'Unica One', cursive;
 }
@@ -45,10 +49,12 @@ main {
     grid-area: mainRight;
     background-color: white;
 }
-
+#name {
+    margin-bottom: 10px;
+}
 #label {
-    padding:0px;
-    margin: 0px;
+    padding:10px;
+    margin: 10px;
 }
 #survey-form {
     margin: 0px;
@@ -129,9 +135,9 @@ input, select {
 
 @media (max-width: 920px) {
     main {
-        min-width: 520px;
+        min-width: 380px;
         min-height: 50vh;
-        padding: 10px 15px 10px 15px;
+        padding: 0px;
         margin: 0;
         display: grid;
         grid-template-rows:1fr 3fr;
@@ -139,5 +145,8 @@ input, select {
         grid-template-areas: 
         'mainLeft'
         'mainRight';
+    }
+    #mainLeft {
+        padding: 0px;
     }
 }

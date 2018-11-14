@@ -5,6 +5,16 @@ First idea
 -
 - Building a simple(?) webpage that displays the date 100 days from now, quite usefull for people like me who will follow the 100-days-of-code-challenge.
 
+DAY 18/100
+14 november 2018
+-
+Submitted my Form project and started working on a new challenge; Build a product landing page.! 
+Spend 2 to 3 hours today! Can't wait for tomorrow!
+
+What I learned today:
+-
+How to style a header from nothing with responsiveness in mind;)!
+
 DAY 17/100
 13 november 2018
 -
