@@ -5,6 +5,16 @@ First idea
 -
 - Building a simple(?) webpage that displays the date 100 days from now, quite usefull for people like me who will follow the 100-days-of-code-challenge.
 
+DAY 19/100
+15 november 2018
+-
+Wow times flies. Day 19 already! Day 2 of the product landing page. Have to look at some other pages for inspiration. Submitting the required user stories from FreeCodeCamp will be easy but I like to make it look good:)! Some more days work! Can't wait to start on Javascript do.. #Hammertime!
+
+What I learned today:
+-
+How to make a diagonal-split-color-div thingy ;). And what doesn't look good on my landing page ;). Also that I love CSS Grid more then I love CSS flexbox ;)
+
+
 DAY 18/100
 14 november 2018
 -
