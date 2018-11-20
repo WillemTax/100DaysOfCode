@@ -1,128 +1,283 @@
 * {
     font-family: 'Open sans', sans-serif;
-}
-h1{
-    font-family: roboto, sans-serif;
-    color: var(--customLetterColor);
-    font-size:20px;
-}
-:root {
-    /* defined the colours the Vestaboard can display */
-    --custom1: #191919;
-    --custom2: #494949;
-    --custom3: #7c7a7a;
-    --custom4: #cecece;
-    --customHighlight: #ef3e55;
-    --customLetterColor: rgb(22, 22, 22);
-    /* and some other colors */
-    --customBoringgrey: rgba(37,37,37,1.0);
-}
-#header {
-    background-image: linear-gradient(90deg, rgb(27, 27, 27),rgba(30,30,30,1.0) );
-    background-color:rgba(30,30,30,1.0);
-    display: flex;
-    justify-content: space-between;
-    margin: 0px;
-    position: fixed;
-    width: 100%;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.44);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.44);
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.44);
-    min-height: 70px;
-    align-items: center;
-    font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
-}
-
-#topDiv {
-    background-color:var(--custom1);
-    background-image: -webkit-linear-gradient(275deg, var(--custom4) 75%, var(--custom1) 0%);
-    min-height: 300px;
-    display: grid;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    grid-template-rows: 2;
-    grid-template-columns: 55% 40%;
-    grid-column-gap: 50px;
-    grid-template-areas:
-    'video firstHighlight'
-    'features features';
-}
-#videoSection {
-    margin-top: 8%;
-    display: grid;
-    grid-area: video;
-}
-#videoSection video {
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    border-radius: 4px;
-    width: 100%;
-}
-#firstHighlight {
-    padding: 3%;
-    grid-area: firstHighlight;
-    align-self: center;
-}
-
-#features {
-    padding-left: 5%;
-    padding-top:5px;
-    color: white;
-    font-family: 'Titillium Web', sans-serif;
-    font-style: normal;
-    grid-area: features;
-}
-
-#middleDiv {
-    background-color: var(--custom1);
-    padding: 10px;
-}
-#contactForm {
-    background-color: green;
-}
-#logo {
-    height: 20px;
-    width: auto;
-    padding-left: 10px;
-}
-#main, body{
-    margin: 0;
-    padding: 0;
-    background-color: #181818;
-}
-
-/* Big screens */
-#ulCollection {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 10px;
-}
-
-#ulCollection li{
     list-style: none;
-    padding-right: 10px;
+    --customLetterColor: #2C2C2B;
+    --darkBlueTextColor: #3B455E;
+    --customGradient: linear-gradient(180deg, #0168D3,#805082, #FE3730 );
 }
 a {
     color: white;
     text-decoration: none;
 }
-
 a:hover{
     color: rgba(152,215,248,1.0);
     text-decoration: none;
 }
-.searchInputField {
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size:54px;
+    line-height: 110%;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: var(--darkBlueTextColor);
+    font-size:36px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: white;
+    font-size:24px;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: var(--darkBlueTextColor);
+    font-size:28px;
+}
+li {
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+    list-style: none;
+}
+button {
+    width: 200px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color: var(--darkBlueTextColor);
     border-radius: 10px;
-    border-style: none;
+    border-style: solid;
+    box-shadow: 0px 0px 2px 0px #fff;
+    margin-top: 20px;
+}
+button:hover {
+    transform: scale(1.03);
+}
+#logo {
+    height: 60px;
+    width: auto;
+    padding: 0px 10px 10px 100px
+}
+nav {
+    width: 40%;
+}
+#ulCollection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    text-transform: uppercase;
+    padding-right: 200px;
+}
+#shopNow {
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+}
+#main, body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    grid-area: header;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    z-index:2;
+    background-color: #2B2C2B;
+}
+#firstSectionWithHeader {
+    background-image:linear-gradient(180deg, #0168D3,#805082, #FE3730 );
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-template-areas:
+    'header header' 
+    'section1 section2';
+}
+#sectionHeader {
+    padding-bottom: 60px;
+    grid-area: sectionHeader;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color:var(--darkBlueTextColor);
+    font-size:40px;
+    text-align: center;
+}
+.sectionContent {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 300px;
+}
+#sectionShoe img {
+    width: 130px;
+}
+#sectionShoe img:hover {
+    transform: scale(1.1);
+}
+#features {
+    display: grid;
+    grid-column-gap: 100px;
+    grid-template-areas:
+    'sectionHeader sectionHeader sectionHeader' 
+    'sectionA sectionB sectionC'
+    'sectionD sectionE sectionF';
+    grid-template-columns: 30% 30% 30%;
+    align-items: stretch;
+    justify-content: center;
+    padding: 100px 200px 100px 200px;
+}
+#firstLeft{
+    padding-left: 200px;
+    grid-area: section1;
+    align-self: center;
+    text-align: left;
+}
+#firstRight{
+    grid-area: section2;
+    align-self: center;
+    justify-self: left;
+    padding-right: 200px;
+    margin: 0;
+    padding: 0;
+}
+#sectionA{
+    grid-area: sectionA;
+    align-self: center;
+    justify-self: center;
+}
+#sectionB{
+    grid-area: sectionB;
+    align-self: center;
+    justify-self: center;
+}
+#sectionC{
+    grid-area: sectionC;
+    align-self: center;
+    justify-self: center;
+}
+#sectionD{
+    grid-area: sectionD;
+    align-self: center;
+    justify-self: center;
+}
+#sectionE{
+    grid-area: sectionE;
+    align-self: center;
+    justify-self: center;
+}
+#sectionF{
+    grid-area: sectionF;
+    align-self: center;
+    justify-self: center;
+}
+#productImage {
+    width: 110%;
+    margin:0;
+    padding: 0;
+    /* border-radius: 6px; */
+    /* box-shadow: 2px 2px 4px 4px #FFF; */
+}
+#orderForm {
+    background-color: var(--darkBlueTextColor);
+    background-image: linear-gradient(180deg, #0168D3,#805082, #FE3730 );
+    background-size: cover;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#formCard {
     padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    border-radius: 6px;
+    width: 60vw;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+    'sectionHeader sectionHeader'
+    'shoe contactForm';
+    justify-content: right;
+    align-items: flex-start;
+    grid-column-gap: 0px;
 }
-
-#navContainer {
-    width: 70%;
+#shoe img{
+    width: 130%;
+    height: auto;
+    grid-area: shoe;
+    z-index: 1;
+    margin-left:-120px;
+    align-self: start;
 }
-
+Form {
+    grid-area: contactForm;
+    display: grid;
+    padding: 0px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    'Name Name'
+    'Email Email'
+    'shoeSize colorSelect'
+    'next orderButton';
+}
+#name {
+    grid-area: Name;
+}
+#email {
+    grid-area: Email;
+}
+#shoeSize {
+    grid-area: shoeSize;
+    width: 90%;
+}
+#dropdownColor {
+    grid-area: colorSelect;
+}
+#next {
+    grid-area: next;
+    padding-left: 10px;
+    color: lightgray;
+    font-size: 14px;
+    font-style: italic;
+}
+#orderNowButton {
+    margin-right: 10%;
+    background-color: #80B3E9;
+    border-style: none;
+    color: white;
+    grid-area: orderButton;
+    justify-self: end;
+}
+footer {
+    background-color: #2B2C2B;
+}
+#footerContent {
+    color:white;
+    padding: 20px;
+}
+input, select {
+    padding:10px;
+    margin: 10px;
+    margin-right: 30px;
+    display: block;
+    border-radius: 6px;
+    border-style: solid;
+    text-indent: 20px;
+    border-width: 1px;
+}
+input:focus {
+    border-color: #3B455E;
+}
