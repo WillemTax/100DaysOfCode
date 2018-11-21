@@ -13,21 +13,21 @@
 <!-- https://affapress.com/portfolio-item/adidas-nmd-r1-landing-page-psd-template/ --> 
 
 <body>
-    <div id="container">
+    <main>
         <div id="firstSectionWithHeader">
-            <header>
-                <div id="logo">
-                    <img src="./media/adidas logo.png" id="logo" alt="Adidas logo">
+            <header id="header">
+                <div id="header-image-div">
+                    <img src="./media/adidas logo.png" id="header-img" alt="Adidas logo">
                 </div>
-                <nav>
+                <nav id="nav-bar">
                     <ul id="ulCollection">
-                        <a href="#main">
+                        <a href="#firstSectionWithHeader" class="nav-link">
                             <li>Home</li>
                         </a>
-                        <a href="#features">
+                        <a href="#features" class="nav-link">
                             <li>Features</li>
                         </a>
-                        <a href="#orderForm">
+                        <a href="#orderForm" class="nav-link">
                             <button id="shopNow">Shop Now</button>
                         </a>
                     </ul>
@@ -124,27 +124,32 @@
             <div id="formCard">
                 <div id="sectionHeader">Contact Form</div>
                 <div id="shoe"><img src="./media/contactFormShoes.png" alt="more shoes"></div>
-                <form>
+                <form id="form" action="https://www.freecodecamp.com/email-submit)" method="GET">
                     <input type="text" id="name" placeholder="Your Name" required>
-                    <input type="email" id="email" placeholder="Your Email" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
                     <input type="number" id="shoeSize" min="10" max="50" placeholder="Your shoe size" required>
                     <select name="selectColor" id="dropdownColor" required>
-                        <option value="none">None Selected</option>
+                        <option value="none" disabled selected>Select color</option>
                         <option value="black">Black</option>
                         <option value="white">White</option>
                     </select>
                     <p id="next">*next step and price will be sent to your email</p>
-                    <button id="orderNowButton">ORDER NOW</button>
+                    <input type="submit" id="submit"  value="ORDER NOW">
                 </form>
             </div>
         </div>
+        <div id="videoDiv">
+            <div id="sectionHeader">Can't decide? Check out this video..</div>
+            <video src="./media/Adidas Commercial NMD Tri-Color R1.mp4" id="video" controls></video>
+        </div>
+
         <footer>
             <div id="footerContent">
                 Copyright & Credits @ <a href="https://affapress.com/portfolio-item/adidas-nmd-r1-landing-page-psd-template/">Affapress</a>
                 | This page is created as a part of the FreeCodeCamp Course
             </div>
         </footer>
-    </div>
+    </main>
 </body>
 
 </html>

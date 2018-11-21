@@ -18,7 +18,7 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
     color: white;
-    font-size:54px;
+    font-size:48px;
     line-height: 110%;
 }
 h2{
@@ -31,7 +31,7 @@ h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color: white;
-    font-size:24px;
+    font-size:20px;
 }
 h4{
     font-family: 'Poppins', sans-serif;
@@ -45,8 +45,8 @@ li {
     list-style: none;
 }
 button {
-    width: 200px;
-    height: 60px;
+    width: 140px;
+    height: 55px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     font-size: 18px;
@@ -59,13 +59,13 @@ button {
 button:hover {
     transform: scale(1.03);
 }
-#logo {
+#header-img {
     height: 60px;
     width: auto;
-    padding: 0px 10px 10px 100px
+    padding: 0px 0px 10px 100px
 }
 nav {
-    width: 40%;
+    width: 600px;
 }
 #ulCollection {
     display: flex;
@@ -73,16 +73,17 @@ nav {
     justify-content: space-between;
     align-items: baseline;
     text-transform: uppercase;
-    padding-right: 200px;
+    padding:0px 200px 0px 10px;
 }
 #shopNow {
     color: white;
     background-color: transparent;
     border-style: solid;
 }
-#main, body{
+main, body{
     margin: 0;
     padding: 0;
+    min-width: 25em;
 }
 header {
     display: flex;
@@ -90,18 +91,21 @@ header {
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     z-index:2;
     background-color: #2B2C2B;
+    opacity: 0.9;
 }
 #firstSectionWithHeader {
     background-image:linear-gradient(180deg, #0168D3,#805082, #FE3730 );
     min-height: 800px;
+    padding-left: 200px;
+    grid-column-gap: 0px;
     display: grid;
     grid-template-columns: 3fr 5fr;
     grid-template-areas:
     'header header' 
-    'section1 section2';
+    'firstLeft firstRight';
 }
 #sectionHeader {
     padding-bottom: 60px;
@@ -135,20 +139,18 @@ header {
     'sectionD sectionE sectionF';
     grid-template-columns: 30% 30% 30%;
     align-items: stretch;
-    justify-content: center;
+    justify-content: sp;
     padding: 100px 200px 100px 200px;
 }
 #firstLeft{
-    padding-left: 200px;
-    grid-area: section1;
+    grid-area: firstLeft;
     align-self: center;
     text-align: left;
 }
 #firstRight{
-    grid-area: section2;
+    grid-area: firstRight;
     align-self: center;
-    justify-self: left;
-    padding-right: 200px;
+    justify-self: center;
     margin: 0;
     padding: 0;
 }
@@ -183,9 +185,9 @@ header {
     justify-self: center;
 }
 #productImage {
-    width: 110%;
+    width: 100%;
     margin:0;
-    padding: 0;
+    padding:0;
 }
 #orderForm {
     background-color: var(--darkBlueTextColor);
@@ -251,7 +253,7 @@ Form {
     font-size: 14px;
     font-style: italic;
 }
-#orderNowButton {
+#submit {
     margin-right: 10%;
     background-color: #80B3E9;
     border-style: none;
@@ -278,4 +280,89 @@ input, select {
 }
 input:focus {
     border-color: #3B455E;
+}
+
+#videoDiv {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+#video {
+    width: 90%;
+}
+
+
+@media (max-width: 60em) {
+    input, select {
+        margin-right: 10px;
+        text-indent: 5px;
+    }
+    #shoeSize {
+        width: 80%;
+    }
+    Form {
+    grid-template-areas: 
+    'Name Name'
+    'Email Email'
+    'shoeSize colorSelect'
+    '. orderButton'
+    'next next';
+    }
+    #header-image {
+        padding: 0px 0px 5px 10px
+    }
+    #ulCollection {
+        padding-right: 20px;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 35em) {
+    #firstSectionWithHeader {
+        grid-template-areas:
+        'header' 
+        'firstRight'
+        'firstLeft' ;
+        grid-template-columns:100%;
+        padding: 150px 50px 50px 50px;
+    }
+    #features {
+        grid-template-areas:
+        'sectionHeader' 
+        'sectionA'
+        'sectionB'
+        'sectionC'
+        'sectionD' 
+        'sectionE' 
+        'sectionF';
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    #formCard {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        'sectionHeader'
+        'contactForm'
+        'shoe';
+        justify-content: right;
+        align-items: flex-start;
+        grid-column-gap: 0px;
+    }
+    #shoe img{
+        width: 70%;
+        margin-left:0px;
+    }
+    button {
+        width: 120px;
+    }
+    
 }
