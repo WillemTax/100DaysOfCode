@@ -186,8 +186,6 @@ header {
     width: 110%;
     margin:0;
     padding: 0;
-    /* border-radius: 6px; */
-    /* box-shadow: 2px 2px 4px 4px #FFF; */
 }
 #orderForm {
     background-color: var(--darkBlueTextColor);
