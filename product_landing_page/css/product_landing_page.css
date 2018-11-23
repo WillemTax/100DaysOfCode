@@ -108,7 +108,7 @@ header {
     'firstLeft firstRight';
 }
 #sectionHeader {
-    padding-top: 30px;
+    padding-top: 7%;
     grid-area: sectionHeader;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
@@ -296,6 +296,9 @@ input:focus {
 #video {
     width: 90%;
 }
+#header-img {
+    display: none;
+}
 
 
 @media (max-width: 60em) {
@@ -368,7 +371,5 @@ input:focus {
         width: 120px;
     }
     
-    #header-img {
-        display: none;
-    }
+    
 }
