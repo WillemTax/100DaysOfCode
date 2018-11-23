@@ -45,18 +45,16 @@ li {
     list-style: none;
 }
 button {
-    width: 160px;
+    width: 140px;
     height: 55px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     font-size: 18px;
     color: var(--darkBlueTextColor);
     border-radius: 10px;
-    border-style: none;
-    background-color: white;
+    border-style: solid;
     box-shadow: 0px 0px 2px 0px #fff;
     margin-top: 20px;
-
 }
 button:hover {
     transform: scale(1.03);
@@ -108,11 +106,10 @@ header {
     grid-template-areas:
     'header header' 
     'firstLeft firstRight';
-    justify-content: center;
 }
 #sectionHeader {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    grid-area: sectionHeader;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color:var(--darkBlueTextColor);
@@ -135,14 +132,15 @@ header {
 }
 #features {
     display: grid;
-    grid-column-gap: 50px;
+    grid-column-gap: 100px;
     grid-template-areas:
+    'sectionHeader sectionHeader sectionHeader' 
     'sectionA sectionB sectionC'
     'sectionD sectionE sectionF';
     grid-template-columns: 30% 30% 30%;
     align-items: stretch;
-    justify-content: space-between;
-    /* padding: 100px 200px 100px 200px; */
+    justify-content: sp;
+    padding: 100px 200px 100px 200px;
 }
 #firstLeft{
     grid-area: firstLeft;
@@ -207,14 +205,13 @@ header {
     background-color: white;
     border-radius: 6px;
     width: 60vw;
-}
-#formCardContent {
     display: grid;
-    grid-template-columns:auto;
+    grid-template-columns: 40% 60%;
     grid-template-areas: 
+    'sectionHeader sectionHeader'
     'shoe contactForm';
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: flex-start;
     grid-column-gap: 0px;
 }
 #shoe img{
@@ -229,7 +226,7 @@ Form {
     grid-area: contactForm;
     display: grid;
     padding: 0px;
-    grid-template-columns: auto;
+    grid-template-columns: 50% 50%;
     grid-template-areas: 
     'Name Name'
     'Email Email'
@@ -297,19 +294,11 @@ input:focus {
     padding: 50px;
 }
 #video {
-    width: 80%;
+    width: 90%;
 }
 
 
 @media (max-width: 60em) {
-    #firstSectionWithHeader {
-        grid-template-areas:
-        'header' 
-        'firstRight'
-        'firstLeft';
-        grid-template-columns:90%;
-        padding: 150px 20px 50px 20px;
-    }
     input, select {
         margin-right: 10px;
         text-indent: 5px;
@@ -324,7 +313,6 @@ input:focus {
     'shoeSize colorSelect'
     '. orderButton'
     'next next';
-    grid-template-columns: 50%;
     }
     #header-image {
         padding: 0px 0px 5px 10px
@@ -333,17 +321,23 @@ input:focus {
         padding-right: 20px;
         justify-content: space-around;
     }
-    #shoe img{
-        display: none;
-     }
 }
 
 @media (max-width: 35em) {
+    #firstSectionWithHeader {
+        grid-template-areas:
+        'header' 
+        'firstRight'
+        'firstLeft';
+        grid-template-columns:90%;
+        padding: 150px 20px 50px 20px;
+    }
     nav {
         width: 90%;
     }
     #features {
         grid-template-areas:
+        /* 'sectionHeader'  */
         'sectionA'
         'sectionB'
         'sectionC'
@@ -357,17 +351,23 @@ input:focus {
     #formCard {
         width: 80vw;
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: 100%;
         grid-template-areas: 
-        'contactForm';
-        justify-content: center;
+        /* 'sectionHeader' */
+        'contactForm'
+        'shoe';
+        justify-content: right;
         align-items: flex-start;
         grid-column-gap: 0px;
     }
-   
+    #shoe img{
+        width: 70%;
+        margin-left:0px;
+    }
     button {
         width: 120px;
     }
+    
     #header-img {
         display: none;
     }
