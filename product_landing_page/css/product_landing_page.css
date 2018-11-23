@@ -283,6 +283,9 @@ input, select {
 input:focus {
     border-color: #3B455E;
 }
+select {
+    text-indent: 0px;
+}
 
 #videoDiv {
     background: #ADA996;  /* fallback for old browsers */
@@ -297,9 +300,6 @@ input:focus {
 }
 #video {
     width: 80%;
-}
-#header-img {
-    display: none;
 }
 
 
@@ -338,6 +338,9 @@ input:focus {
     #shoe img{
         display: none;
      }
+     #header-img {
+        display: none;
+    }
 }
 
 @media (max-width: 35em) {
@@ -370,12 +373,4 @@ input:focus {
     button {
         width: 120px;
     }
-<<<<<<< HEAD
-    
-    
-=======
-    #header-img {
-        display: none;
-    }
->>>>>>> After_fix
 }
