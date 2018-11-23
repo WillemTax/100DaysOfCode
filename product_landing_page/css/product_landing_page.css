@@ -56,7 +56,6 @@ button {
     background-color: white;
     box-shadow: 0px 0px 2px 0px #fff;
     margin-top: 20px;
-
 }
 button:hover {
     transform: scale(1.03);
@@ -111,13 +110,8 @@ header {
     justify-content: center;
 }
 #sectionHeader {
-<<<<<<< HEAD
-    padding-top: 7%;
-    grid-area: sectionHeader;
-=======
     padding-top: 40px;
     padding-bottom: 40px;
->>>>>>> After_fix
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     color:var(--darkBlueTextColor);
