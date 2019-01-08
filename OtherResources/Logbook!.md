@@ -1,12 +1,20 @@
 ## ##  100DaysOfCode-OnePager ## ## 
-haven't figured out what to build (yet) but time will tell!
-
-First idea
--
-- Building a simple(?) webpage that displays the date 100 ### DAYs from now, quite usefull for people like me who will follow the 100-### DAYs-of-code-challenge.
+Keeping progress of what I've learned troughout the 100-days-of-code-challenge!
+Instagram: Willemsdevjourney ;)
 
 
-### DAY24/100 ### 
+### DAY 31-34/100 ### 
+> 26-30 November 2018
+WHAT | Finished the javascript basics of FreeCodeCamp. I also purchased a course on React Native + Firebase on Udemy and already got to the point that I've got an app were you can log in with emailadres (hardcoded in Firebase;) or Facebook! Awesome. Did start to early on this project so I will leave it aside for now but I nice to see something I can work on in the future! 
+LEARNED | Javascript basics, react native, firebase auth, firebase db, .gitignore to keep API keys aside and a lot more.
+Struggled quite a lot with the Javascript arrays. (accesing arrays in arrays and CRUD on them..)
+
+### DAY 25-30/100 ### 
+> 21-26 November 2018
+WHAT | Started the javascript part of FreeCodeCamp. A couple of months ago I already finished a course on Codecademy so I'm flying trough this part. Also, I purchased a course about React native and Firebase on Udemy, not sure when I will start on this course. I guess the level of expertise will be sufficient (baryly..) after finishing up FreeCodeCamp-javascript with one or more projects.. Maybe a little bit to fast but you gotta aim high;)
+LEARNED | strings, operators, arrays, pop, push, shift, unshift (usefull!)..
+
+### DAY 24/100 ### 
 > 20 November 2018
 WHAT | Finished up most of the Product landing page to### DAY!!! Tomorrow finishing up by adding @media to support tablets and smartphones.
 Hopes are that I will not take to long since I used Flexbox and Grid quite a lot already!
